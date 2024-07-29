@@ -29,7 +29,7 @@ button1.addEventListener('click', () => {
 
 button2.addEventListener('click', () => {
     console.log('Next button Clicked');
-    if (currTick < ticks.length - 1) { // Corrected condition
+    if (currTick < ticks.length - 1) {
         currTick++;
         updateStep();
     }
