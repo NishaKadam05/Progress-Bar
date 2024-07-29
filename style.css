@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.section{
+    margin: 100px 150px;
+    width: 80%;
+}
+
+.container{
+    text-align: center;
+    background-color: yellow;
+    padding: 60px;
+}
+
+.row{
+    padding: 40px;
+}
+
+.row h1{
+    text-align: center;
+}
+
+.tick{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin: 20px 30px;
+    padding: 25px;
+    border: 2px solid #ccc;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.tick.active{
+    background-color: #fff;
+    border-color: #000;
+}
+
+.tick.completed{
+    /* background-color: green; */
+    border: 10px solid green;
+}
+
+.tick i{
+    font-size: 24px;
+}
+
+.tick.active i{
+    color: #000;
+}
+
+.tick.completed i{
+   color: #fff;
+}
+
+.btn-1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(124, 124, 233);
+    color: white;
+    border: 1px solid rgb(124, 124, 233);
+    border-radius: 10px;
+}
+
+.btn-1:hover{
+    background-color: blue;
+}
+
+.btn-2{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(124, 124, 233);
+    color: white;
+    border: 1px solid rgb(124, 124, 233);
+    border-radius: 10px;
+}
+
+.btn-2:hover{
+    background-color: blue;
+}
