@@ -1,6 +1,6 @@
 const ticks = document.querySelectorAll(".tick");
-const button1 = document.querySelector(".btn-1"); // Use querySelector for single elements
-const button2 = document.querySelector(".btn-2"); // Use querySelector for single elements
+const button1 = document.querySelector(".btn-1"); 
+const button2 = document.querySelector(".btn-2"); 
 let currTick = 0;
 
 function updateStep() {
@@ -16,7 +16,7 @@ function updateStep() {
             tick.querySelector("i").innerHTML = 'X';
         }
     });
-    console.log(`Current Index: ${currTick}`); // Fixed template literal syntax
+    console.log(`Current Index: ${currTick}`); 
 }
 
 button1.addEventListener('click', () => {
